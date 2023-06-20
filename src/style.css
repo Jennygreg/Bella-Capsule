@@ -1,18 +1,87 @@
-h1 {
-  color: pink;
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-h2 {
-  color: blue;
+.menu {
+  background: #eee7e1;
+  height: 70px;
+  position: fixed;
+  top: 0px;
 }
 .logo {
-  max-width: 50px;
-  margin: 0;
-  border: 1px solid none;
-  border-radius: 10px;
+  max-width: 80px;
+  margin: 0px;
+  padding: 0px;
 }
-.fashionimages {
+.page-links {
+  position: relative;
+  top: -50px;
+  text-align: right;
+  padding-right: 10px;
+}
+.links {
+  text-decoration: none;
+  text-align: right;
+  margin: 10px;
+  color: #7e4b97;
+}
+.brand-name {
+  font-size: 46px;
+  font-family: lobster;
+  color: #7e4b97;
+  text-align: right;
+  padding-right: 100px;
+}
+.motto {
+  font-size: 20px;
+  font-family: oleo script;
+  text-align: right;
+  padding-right: 100px;
+}
+.home-para {
+  font-size: 25px;
+  font-family: mako;
+  padding: 30px;
+  text-align: center;
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.shop-now {
+  background: #7e4b97;
+  color: #efd1d7;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 11px;
+  box-shadow: 2px 1px 2px gray;
+  text-align: center;
+}
+.shop-now:hover {
+  background: #efd1d7;
+  color: #7e4b97;
+  transition: 50ms ease-in-out;
+}
+.icon {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  height: 50px;
+  background: #efd1d7;
 }
-.fashion {
+.insta {
+  font-size: 30px;
+  color: #e50fbb;
+}
+.email {
+  font-size: 30px;
+
+  background-color: ;
+}
+
+.contact-links {
+  font-size: 20px;
+  font-family: mako;
+  margin: 10px 30px;
 }

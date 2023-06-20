@@ -5,6 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bella Capsule Fashion Collection Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mako&family=Oleo+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Mako&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,46 +36,55 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/"
+    <div class="container-fluid menu">
+      <div>
+        <a class="logo-icon" href="/"
           ><img src="/images/logo.png" alt="logo" class="logo"
         /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
-            <a class="nav-link" href="#">Products</a>
-            <a class="nav-link" href="#">Blog</a>
-            <a class="nav-link disabled">Contact</a>
-          </div>
+      </div>
+
+      <div class="page-links">
+        <a class="links" href="#">About</a>
+        <a class="links" href="#">Products</a>
+        <a class="links" href="#">Blog</a>
+        <a class="links" href="#">Contact</a>
+      </div>
+    </div>
+
+    <h1 class="brand-name pt-5">Bella Capsule</h1>
+    <p class="motto pb-5">Redefining Looks with Qualities...</p>
+    <div id="body-image">
+      <div class="row fashionimages">
+        <div class="col-3 fashion">
+          <img src="/images/fashion4.png" alt="fashionicon" />
+        </div>
+        <div class="col-3 fashion">
+          <img src="/images/fashion1.png" class="fash" alt="fashionicon" />
+        </div>
+        <div class="col-3 fashion">
+          <img src="/images/fashion3.png" alt="fashionicon" />
+        </div>
+        <div class="col-3 fashion">
+          <img src="/images/fashion2.png" class="fash" alt="fashionicon" />
         </div>
       </div>
-    </nav>
-    <h1>Bella Capsule</h1>
-    <small>Redefining Looks with Qualities</small>
-    <div class="fashionimages">
-      <div class="fashion">
-        <img src="/images/fashion4.png" alt="fashionicon" />
+    </div>
+    <p class="home-para">
+      Electrify your wardrobe with the smart, stylish and elegant line
+      collections from Bella Capsule.<br />
+      Bella Capsule blurs the line between work and play with business and
+      casual clothings, shoes, accessories and comestics.
+    </p>
+    <div class="btn">
+      <button class="shop-now">Shop Now</button>
+    </div>
+    <div class="container-fluid icon">
+      <div class="contact-links">
+        <i class="fa-brands fa-instagram insta"> </i>
+        bella.capsule.collection
       </div>
-      <div class="fashion">
-        <img src="/images/fashion1.png" alt="fashionicon" />
-      </div>
-      <div class="fashion">
-        <img src="/images/fashion3.png" alt="fashionicon" />
-      </div>
-      <div class="fashion">
-        <img src="/images/fashion2.png" alt="fashionicon" />
+      <div class="contact-links">
+        <i class="fa-solid fa-envelope email"></i> bellacapscollection@gmail.com
       </div>
     </div>
     <script src="/src/js.script"></script>
