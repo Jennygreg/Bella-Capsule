@@ -1,0 +1,18 @@
+h1 {
+  color: pink;
+}
+h2 {
+  color: blue;
+}
+.logo {
+  max-width: 50px;
+  margin: 0;
+  border: 1px solid none;
+  border-radius: 10px;
+}
+.fashionimages {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fashion {
+}
