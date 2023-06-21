@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #7e4b97;
+  --secondary-color: #efd1d7;
+}
 body {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -23,12 +27,12 @@ body {
   text-decoration: none;
   text-align: right;
   margin: 10px;
-  color: #7e4b97;
+  color: var(--primary-color);
 }
 .brand-name {
   font-size: 46px;
   font-family: lobster;
-  color: #7e4b97;
+  color: var(--primary-color);
   text-align: right;
   padding-right: 100px;
 }
@@ -37,6 +41,16 @@ body {
   font-family: oleo script;
   text-align: right;
   padding-right: 100px;
+}
+.fashionimages {
+  display: flex;
+  justify-content: space-evenly;
+}
+.image {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  margin: 0;
 }
 .home-para {
   font-size: 25px;
@@ -50,8 +64,8 @@ body {
   margin-bottom: 50px;
 }
 .shop-now {
-  background: #7e4b97;
-  color: #efd1d7;
+  background: var(--primary-color);
+  color: var(--secondary-color);
   padding: 15px 30px;
   font-size: 18px;
   border: none;
@@ -60,15 +74,15 @@ body {
   text-align: center;
 }
 .shop-now:hover {
-  background: #efd1d7;
-  color: #7e4b97;
+  background: var(--secondary-color);
+  color: var(var(--primary-color));
   transition: 50ms ease-in-out;
 }
 .icon {
   display: flex;
   justify-content: center;
   height: 50px;
-  background: #efd1d7;
+  background: var(--secondary-color);
 }
 .insta {
   font-size: 30px;
@@ -76,8 +90,6 @@ body {
 }
 .email {
   font-size: 30px;
-
-  background-color: ;
 }
 
 .contact-links {
