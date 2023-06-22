@@ -39,13 +39,24 @@
   padding-right: 100px;
 }
 .fashionimages {
-  display: flex;
+  display: block;
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 0;
+  padding-right: 0;
+}
+.myimages {
   justify-content: space-evenly;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 0px;
+  padding: 0;
 }
 .image {
+  width: 300px;
   padding: 0;
   margin: 0;
-  width: 300px;
 }
 .fash {
   width: 350px;
@@ -96,4 +107,31 @@
 .email {
   font-size: 20px;
   padding: 5px;
+}
+@media (max-width: 700px) {
+  .logo {
+    max-width: 60px;
+    margin: 0px;
+    padding-top: 10px;
+  }
+  .brand {
+    display: block;
+    margin: 0 auto;
+  }
+  .brand-name {
+    font-size: 36px;
+  }
+  .motto {
+    font-size: 16px;
+  }
+  .home-para {
+    font-size: 16px;
+    font-family: mako;
+    padding: 25px;
+    text-align: center;
+  }
+  .shop-now {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 }
