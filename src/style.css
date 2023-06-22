@@ -41,16 +41,15 @@
 .fashionimages {
   display: block;
   margin: 0 auto;
-  margin-left: 50px;
   margin-top: 50px;
-  margin-right: 0;
-  padding-right: 0;
+  margin: 0;
+  padding: 0;
 }
 .myimages {
   justify-content: space-evenly;
   display: flex;
-  margin-left: 50px;
-  margin-right: 0px;
+  margin: 0px;
+  margin: 0px;
   padding: 0;
 }
 .image {
