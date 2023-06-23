@@ -103,12 +103,17 @@
 }
 @media (max-width: 600px) {
   .logo {
-    max-width: 60px;
+    max-width: 50px;
     margin: 0px;
     padding-top: 10px;
   }
   .page-links {
-    padding-left: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .links {
+    font-size: 14px;
+    margin: 5px;
   }
 
   .brand {
