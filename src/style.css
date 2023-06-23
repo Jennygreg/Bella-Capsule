@@ -100,10 +100,12 @@ nav a:hover {
   font-size: 20px;
   color: #e50fbb;
   padding: 5px;
+  margin: 0 20px;
 }
 .email {
   font-size: 20px;
   padding: 5px;
+  margin: 0 20px;
 }
 @media (max-width: 600px) {
   .logo {
