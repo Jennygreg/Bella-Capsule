@@ -19,10 +19,14 @@
   top: -50px;
   text-align: right;
 }
-.links {
+nav a {
   text-decoration: none;
   margin: 10px;
   color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+}
+nav a:hover {
+  color: #e50fbb;
 }
 .brand-name {
   font-size: 46px;
