@@ -79,8 +79,8 @@
 }
 .shop-now:hover {
   background: var(--secondary-color);
-  color: var(var(--primary-color));
-  transition: 50ms ease-in-out;
+  color: var(--primary-color);
+  transition: all 200ms ease-in-out;
 }
 .icon {
   display: flex;
