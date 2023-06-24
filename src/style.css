@@ -107,7 +107,56 @@ nav a:hover {
   padding: 5px;
   margin: 0 20px;
 }
-@media (max-width: 600px) {
+
+.dress {
+  width: 150px;
+  padding: 0;
+  margin-left: 50px;
+}
+.blazar {
+  margin-top: 50px;
+  width: 130px;
+  margin-left: 20px;
+  padding: 0px;
+}
+.suit {
+  width: 200px;
+  margin-top: 100px;
+  margin-right: 50px;
+  padding-right: 20px;
+}
+.plain {
+  width: 170px;
+  padding: 0;
+  margin-right: 50px;
+}
+.jeans {
+  width: 150px;
+  margin-left: 50px;
+  padding: 0;
+}
+.accessories {
+  width: 180px;
+  margin-left: 50px;
+  padding: 0;
+}
+.shoes {
+  width: 200px;
+  margin-right: 50px;
+  padding-top: 50px;
+}
+.hair {
+  width: 200px;
+  margin-right: 50px;
+  padding: 0;
+}
+.sneaker {
+  width: 180px;
+
+  margin-left: 50px;
+}
+
+@media (max-width: 900px) {
   .logo {
     max-width: 50px;
     margin: 0px;
@@ -144,5 +193,19 @@ nav a:hover {
   .shop-now {
     padding: 10px 20px;
     font-size: 14px;
+  }
+
+  .accessories {
+    margin-left: 0;
+  }
+  .shoes {
+    margin-right: 0;
+    padding-top: 0;
+  }
+  .hair {
+    margin-right: 0;
+  }
+  .sneaker {
+    margin-left: 0;
   }
 }
