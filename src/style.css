@@ -66,6 +66,7 @@ nav a:hover {
 
 #fashImg{
   position: absolute;
+  right: 100%;
   animation:fashImag 200ms infinite ;
 }
 @keyframes fashImg{
